@@ -1,0 +1,25 @@
+.card {
+  &__image {
+    width: 100%;
+  }
+
+  &:nth-child(3) {
+    @include media-breakpoint-up(md) {
+      grid-area: 1 / 3 / 3 / 5;
+    }
+
+    @include media-breakpoint-up(xl) {
+      grid-area: 1 / 3 / 3 / 5;
+    }
+  }
+
+  &:nth-child(16) {
+    @include media-breakpoint-up(md) {
+      grid-area: 5 / 1 / 7 / 3;
+    }
+
+    @include media-breakpoint-up(xl) {
+      grid-area: 3 / 5 / 5 / 7;
+    }
+  }
+}
