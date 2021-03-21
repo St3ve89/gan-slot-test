@@ -9,7 +9,7 @@ export default function Header() {
 
   const onSortChangeHandler = (sortArg) => {
     let filteredGames = [...initialGames];
-    let newSort = { ...sort, ...sortArg };
+    const newSort = { ...sort, ...sortArg };
 
     if (newSort.sort === 'new') {
       filteredGames = filteredGames.sort((game1, game2) => {
