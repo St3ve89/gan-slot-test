@@ -25,7 +25,7 @@ export default function Header() {
 
     if (newSort.search.length > 0) {
       filteredGames = filteredGames.filter(
-        (game) => game.title.toLowerCase().indexOf(newSort.search) > -1
+        ({ title }) => title.toLowerCase().indexOf(newSort.search) > -1
       );
     }
 
