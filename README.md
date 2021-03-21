@@ -1,4 +1,4 @@
-# GAN Slot Task
+# GAN Slot Test
 
 To run the project locally:
 
