@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
-import { GamesContext } from '../context/gamesContext';
-import Card from './Card';
+import { GamesContext } from '../../context/gamesContext';
+import Card from '../Card/Card';
 
 export default function CardList() {
   const { games } = useContext(GamesContext);

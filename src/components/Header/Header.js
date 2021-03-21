@@ -1,8 +1,8 @@
 import React, { useContext } from 'react';
-import { GamesContext } from '../context/gamesContext';
+import { GamesContext } from '../../context/gamesContext';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import initialGames from '../fixtures/games.json';
+import initialGames from '../../fixtures/games.json';
 
 export default function Header() {
   const { setGames, sort, setSort } = useContext(GamesContext);
