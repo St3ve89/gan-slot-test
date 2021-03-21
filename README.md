@@ -1,6 +1,6 @@
 # GAN Slot Task
 
-To run in dev mode:
+To run the project locally:
 
 - `npm install`
 - `npm start`
